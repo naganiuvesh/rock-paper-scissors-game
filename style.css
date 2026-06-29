@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(6, 6, 37);
+    color: white;
+    font-weight: bolder;
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    height: 250px;
+    width: 100%;    
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 30px;
+}
+.rock{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 70%;
+    background-size: cover;
+    object-fit: cover;
+}
+.paper{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 70%;
+    background-size: cover;
+    object-fit: cover;
+}
+.scissor{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 70%;
+    background-size: cover;
+    object-fit: cover;
+}
+button{
+    border: none;
+    background-color: white;
+}
+.point{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.you-point{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+.you-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+}
+.comp-point{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+.comp-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+}
+
+.result-section{
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.result{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 60px;
+    border-radius: 10px;
+    width: 200px;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rock:hover {
+    border: 5px solid black;
+    border-radius: 70%;
+}
+.paper:hover {
+    border: 5px solid black;
+    border-radius: 70%;
+}
+.scissor:hover {
+    border: 5px solid black;
+    border-radius: 70%;
+}
+.win{
+    background-color: green;
+    color: white;
+    width: 250px;
+    border-radius: 10px;
+}
+.lost{
+    background-color: red;
+    color: white;
+    width: 250px;
+    border-radius: 10px;
+}
